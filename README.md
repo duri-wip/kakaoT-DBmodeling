@@ -8,26 +8,26 @@
 
 ## ERD 설계 및 개념적 모델링
 
-![ERD]()
+![ERD](https://github.com/duri-wip/kakaoT-DBmodeling/blob/main/images/ERD.png)
 
 '배차'와 '결제'라는 주요 업무 프로세스를 기반으로 entity와 relation을 설계하였습니다.
 
 ## 논리모델링 및 정규화
 
-![릴레이션 스키마]()
+![릴레이션 스키마](https://github.com/duri-wip/kakaoT-DBmodeling/blob/main/images/RelationSchema.png)
 
 초기 ERD에서 업무 프로세스를 가정하고 DB에 저장해야 하는 것과 아닌것을 구분하였습니다.
 테이블의 정규성을 고려하여 설계하였습니다.
 
 ## 물리 모델링
 
-### 1. 테이블 생성
+### 1. 데이터베이스 및 테이블 생성
 
-![테이블 생성 SQL]()
+![데이터베이스 및 테이블 생성 SQL](https://github.com/duri-wip/kakaoT-DBmodeling/blob/main/create_database.sql)
 
 ### 2. 데이터 삽입
 
-![가상의 데이터 생성]()
+![가상의 데이터 생성](https://github.com/duri-wip/kakaoT-DBmodeling/blob/main/faker_data_generator.ipynb)
 
 ## 추후 과제
 
